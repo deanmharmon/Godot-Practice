@@ -14,8 +14,5 @@ func get_input():
 func _physics_process(delta):
 	get_input()
 	move_and_slide()
-	print("Player pos:", global_position)
-	print("Sprite pos:", $AnimatedSprite2D.global_position)
-		
-		
+	
 	
